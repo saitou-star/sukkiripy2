@@ -1,0 +1,22 @@
+#2-1
+# 1．ディクショナリ 2．リスト 3.セット 4.セット 5.リスト
+
+#2-2
+# nationalLanguage = int(input("あなたの国語の点数を入力してください？ >>"))
+# arithmetic = int(input("あなたの数学の点数を入力してください？ >>"))
+# science = int(input("あなたの理科の点数を入力してください？ >>"))
+# society = int(input("あなたの社会の点数を入力してください？ >>"))
+# english = int(input("あなたの英語の点数を入力してください？ >>"))
+
+# scores = {nationalLanguage, arithmetic, science, society, english}
+
+
+scores = []
+scores.append(int(input("国語の点数 >>")))
+scores.append(int(input("算数の点数 >>")))
+scores.append(int(input("理科の点数 >>")))
+scores.append(int(input("社会の点数 >>")))
+scores.append(int(input("英語の点数 >>")))
+
+print(f"合計点は{sum(scores)}")
+print(f"平均点は{sum(scores) / len(scores)}")

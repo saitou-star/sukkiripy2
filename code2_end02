@@ -1,0 +1,10 @@
+firstHuman = {"食べ歩き","読書","映画鑑賞","ゲーム","プログラミング"}
+secondHuman = {"食べ歩き","スポーツ","ゲーム","ドライブ","ペット"}
+
+input("心の準備が出来たらEnterキーを押してください")
+
+sekiResult = firstHuman & secondHuman
+waResult = firstHuman | secondHuman
+finalResult = len(sekiResult) / len(waResult) * 100
+
+print(f"二人の相性度は、{finalResult}%です。")
